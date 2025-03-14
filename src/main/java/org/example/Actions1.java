@@ -20,7 +20,7 @@ public class Actions1 {
         a.moveToElement(driver.findElement(By.id("nav-link-amazonprime"))).contextClick().build().perform();
 // keysdown is used for holding button
         a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
-
+        System.out.println("Avinash");
 
 
 
